@@ -15,26 +15,25 @@
   </header>
 
   <main>
-    <section class="intro" aria-labelledby="title">
-      <div>
+    <section id="onboarding" class="onboarding" aria-labelledby="title">
+      <div class="onboarding-copy">
         <p class="kicker">Feel the barrier. Fix the interface.</p>
-        <h1 id="title">Can everyone check in?</h1>
+        <h1 id="title">Can everyone<br>check in?</h1>
+        <p>You have 30 seconds to check in one patient. Wrong answers cost 100 points. Afterward, DigitalOcean AI repairs the interface and you replay the exact same mission.</p>
+        <button id="startBtn" class="start-button" type="button">Start challenge</button>
       </div>
-      <p>Memorize the patient card. Survive the unfair kiosk. Let AI repair it, then beat your score.</p>
-    </section>
-
-    <section class="mode-panel" aria-labelledby="modes-title">
-      <div>
-        <span class="section-label" id="modes-title">Barrier controls</span>
-        <p>Illustrative modes reveal specific UI failures. They do not reproduce anyone's lived experience.</p>
-      </div>
-      <div class="toggles" role="group" aria-label="Barrier modes">
-        <button class="mode-toggle" data-mode="vision" aria-pressed="true">Low contrast</button>
-        <button class="mode-toggle" data-mode="motor" aria-pressed="true">Small targets</button>
-        <button class="mode-toggle" data-mode="cognitive" aria-pressed="true">Cognitive load</button>
+      <div class="barrier-select" aria-labelledby="modes-title">
+        <span class="section-label" id="modes-title">Choose unfair barriers</span>
+        <p class="barrier-note">All three start active. These illustrate interface failures, not anyone's lived experience.</p>
+        <div class="barrier-cards" role="group" aria-label="Barrier modes">
+          <button class="mode-toggle barrier-card" data-mode="vision" aria-pressed="true"><strong>Low contrast</strong><span>Essential text and states become difficult to distinguish.</span></button>
+          <button class="mode-toggle barrier-card" data-mode="motor" aria-pressed="true"><strong>Small targets</strong><span>Controls shrink below comfortable mouse and touch sizes.</span></button>
+          <button class="mode-toggle barrier-card" data-mode="cognitive" aria-pressed="true"><strong>Cognitive load</strong><span>Dense wording and distracting information make decisions harder.</span></button>
+        </div>
       </div>
     </section>
 
+    <section id="game" class="game" hidden>
     <section class="workspace">
       <article class="device-column" aria-labelledby="kiosk-title">
         <div class="column-heading">
@@ -94,6 +93,7 @@
         <div><span>Before</span><strong id="beforeResult">Not measured</strong></div>
         <div><span>After</span><strong id="afterResult">Start the rebuilt task</strong></div>
       </div>
+    </section>
     </section>
   </main>
 
