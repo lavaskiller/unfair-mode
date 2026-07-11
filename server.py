@@ -6,7 +6,7 @@ Without them, the UI transparently uses its labeled saved demo analysis.
 import json, os, urllib.request
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 
-SYSTEM="""You are an accessibility UI reviewer. Return JSON only with an issues array. Each issue has title, severity (High or Medium), and detail. Review concrete interface barriers, avoid compliance guarantees, and give concise actionable repairs."""
+SYSTEM="""You are an accessibility repair engine. The user message contains measured browser DOM evidence. Return JSON only with: issues (title, severity, detail, evidence) and repair (minTargetPx from 44-64, contrastBoost from 1-2, spacingPx from 8-20, plainLanguage boolean). Ground every issue in supplied measurements and avoid compliance guarantees."""
 class Handler(SimpleHTTPRequestHandler):
     def do_POST(self):
         if self.path != '/api/analyze': self.send_error(404); return
