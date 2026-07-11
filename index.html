@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="UNFAIR MODE exposes interface barriers and rebuilds a hospital kiosk with AI-assisted accessibility fixes." />
+  <title>UNFAIR MODE</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#">UNFAIR <strong>MODE</strong></a>
+    <p>Accessibility stress test</p>
+    <button id="resetBtn" class="text-button" type="button">Reset demo</button>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="title">
+      <div>
+        <p class="kicker">Feel the barrier. Fix the interface.</p>
+        <h1 id="title">Can everyone check in?</h1>
+      </div>
+      <p>Try the task. Expose the barriers. Let AI propose a safer interface, then measure the difference.</p>
+    </section>
+
+    <section class="mode-panel" aria-labelledby="modes-title">
+      <div>
+        <span class="section-label" id="modes-title">Barrier controls</span>
+        <p>Illustrative modes reveal specific UI failures. They do not reproduce anyone's lived experience.</p>
+      </div>
+      <div class="toggles" role="group" aria-label="Barrier modes">
+        <button class="mode-toggle" data-mode="vision" aria-pressed="false">Low contrast</button>
+        <button class="mode-toggle" data-mode="motor" aria-pressed="false">Small targets</button>
+        <button class="mode-toggle" data-mode="cognitive" aria-pressed="false">Cognitive load</button>
+      </div>
+    </section>
+
+    <section class="workspace">
+      <article class="device-column" aria-labelledby="kiosk-title">
+        <div class="column-heading">
+          <div><span class="section-label">Live task</span><h2 id="kiosk-title">Hospital check-in</h2></div>
+          <div class="metric"><b id="timer">0.0</b><span>seconds</span></div>
+          <div class="metric"><b id="errors">0</b><span>errors</span></div>
+        </div>
+
+        <div class="kiosk-shell" id="kioskShell">
+          <div class="kiosk-top">
+            <span>Harbor Health</span>
+            <span id="stepText">Step 1 of 4</span>
+          </div>
+          <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+          <div id="kioskScreen" class="kiosk-screen" aria-live="polite"></div>
+        </div>
+      </article>
+
+      <aside class="inspector" aria-labelledby="inspector-title">
+        <div class="column-heading">
+          <div><span class="section-label">AI inspector</span><h2 id="inspector-title">Barrier report</h2></div>
+          <span id="aiStatus" class="status">Ready</span>
+        </div>
+        <div id="emptyReport" class="empty-report">
+          <span class="scan-mark">A11Y</span>
+          <h3>Run an interface scan</h3>
+          <p>Analyze the active barriers, then generate a structured accessibility patch.</p>
+        </div>
+        <div id="report" class="report" hidden></div>
+        <button id="analyzeBtn" class="primary-button" type="button">Analyze interface</button>
+        <button id="rebuildBtn" class="secondary-button" type="button" hidden>Rebuild accessibly</button>
+      </aside>
+    </section>
+
+    <section id="resultPanel" class="result-panel" hidden aria-live="polite">
+      <div><span class="section-label">Measured result</span><h2>Same task. Better outcome.</h2></div>
+      <div class="comparison">
+        <div><span>Before</span><strong id="beforeResult">Not measured</strong></div>
+        <div><span>After</span><strong id="afterResult">Start the rebuilt task</strong></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Prototype for AI for Social Good</p>
+    <p>Automated suggestions support, but never replace, testing with disabled people and accessibility professionals.</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
