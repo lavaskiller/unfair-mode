@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810" role="img" aria-labelledby="title desc">
+  <title id="title">UNFAIR MODE project banner</title>
+  <desc id="desc">An unfair hospital kiosk is compared with an accessible AI-rebuilt interface.</desc>
+  <rect width="1440" height="810" fill="#171916"/>
+  <path d="M0 0h18v810H0zM1422 0h18v810h-18z" fill="#d9ff43"/>
+  <text x="88" y="102" fill="#f3f4ee" font-family="monospace" font-size="26" font-weight="700" letter-spacing="2">UNFAIR</text>
+  <rect x="226" y="70" width="98" height="44" fill="#d9ff43"/>
+  <text x="239" y="101" fill="#171916" font-family="monospace" font-size="25" font-weight="700">MODE</text>
+  <text x="88" y="181" fill="#f3f4ee" font-family="Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="-2">Feel the barrier.</text>
+  <text x="88" y="237" fill="#d9ff43" font-family="Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="-2">Fix the interface.</text>
+  <text x="88" y="286" fill="#aeb2a8" font-family="Arial, sans-serif" font-size="18">A playable accessibility challenge powered by DigitalOcean AI</text>
+
+  <g transform="translate(88 350)">
+    <text x="0" y="0" fill="#aeb2a8" font-family="monospace" font-size="14" font-weight="700" letter-spacing="2">UNFAIR KIOSK</text>
+    <rect x="0" y="25" width="550" height="340" rx="20" fill="#292c28" stroke="#4c5049" stroke-width="2"/>
+    <rect x="18" y="43" width="514" height="299" rx="10" fill="#dadbd5"/>
+    <rect x="18" y="43" width="514" height="48" rx="10" fill="#53615b"/>
+    <text x="38" y="73" fill="#adb3af" font-family="Arial, sans-serif" font-size="15" font-weight="700">HARBOR HEALTH</text>
+    <text x="38" y="135" fill="#939890" font-family="Arial, sans-serif" font-size="19" font-weight="700">Verification is contingent upon...</text>
+    <text x="38" y="167" fill="#9da099" font-family="Arial, sans-serif" font-size="12">Select the appropriate linguistic option for continuation.</text>
+    <g fill="#b6b9b2" stroke="#92968e">
+      <rect x="38" y="200" width="94" height="24" rx="3"/><rect x="140" y="200" width="94" height="24" rx="3"/>
+      <rect x="242" y="200" width="94" height="24" rx="3"/><rect x="344" y="200" width="94" height="24" rx="3"/>
+      <rect x="446" y="200" width="42" height="24" rx="3"/>
+    </g>
+    <text x="38" y="278" fill="#8d9189" font-family="monospace" font-size="12">LOW CONTRAST  /  22PX TARGETS  /  DENSE COPY</text>
+    <text x="38" y="315" fill="#b94130" font-family="monospace" font-size="14" font-weight="700">TIME 38.4s     ERRORS 3     SCORE 316</text>
+  </g>
+
+  <g transform="translate(802 350)">
+    <text x="0" y="0" fill="#d9ff43" font-family="monospace" font-size="14" font-weight="700" letter-spacing="2">AI REBUILT</text>
+    <rect x="0" y="25" width="550" height="340" rx="20" fill="#183d38" stroke="#d9ff43" stroke-width="2"/>
+    <rect x="18" y="43" width="514" height="299" rx="10" fill="#fcfcf8"/>
+    <rect x="18" y="43" width="514" height="48" rx="10" fill="#102e2a"/>
+    <text x="38" y="73" fill="#ffffff" font-family="Arial, sans-serif" font-size="15" font-weight="700">HARBOR HEALTH</text>
+    <text x="38" y="145" fill="#171916" font-family="Arial, sans-serif" font-size="28" font-weight="700">Choose your language</text>
+    <text x="38" y="179" fill="#4f5751" font-family="Arial, sans-serif" font-size="15">Select the language you want to use.</text>
+    <rect x="38" y="210" width="220" height="62" rx="10" fill="#ffffff" stroke="#183d38" stroke-width="3"/>
+    <rect x="274" y="210" width="220" height="62" rx="10" fill="#183d38" stroke="#183d38" stroke-width="3"/>
+    <text x="59" y="249" fill="#183d38" font-family="Arial, sans-serif" font-size="17" font-weight="700">English</text>
+    <text x="295" y="249" fill="#ffffff" font-family="Arial, sans-serif" font-size="17" font-weight="700">한국어</text>
+    <text x="38" y="315" fill="#476700" font-family="monospace" font-size="14" font-weight="700">TIME 12.8s     ERRORS 0     SCORE 872</text>
+  </g>
+
+  <text x="88" y="767" fill="#aeb2a8" font-family="monospace" font-size="13">HOSPITAL CHECK-IN  →  BARRIER SCAN  →  ACCESSIBLE REBUILD  →  MEASURED OUTCOME</text>
+</svg>

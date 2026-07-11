@@ -1,17 +1,18 @@
 # UNFAIR MODE
 
+![UNFAIR MODE compares an intentionally inaccessible hospital kiosk with an AI-rebuilt accessible interface](assets/unfair-mode-banner.svg)
+
 **Feel the barrier. Fix the interface.**
 
-UNFAIR MODE is an interactive hospital kiosk stress test. It exposes concrete interface barriers, analyzes them with DigitalOcean AI, applies a structured accessibility patch, and measures the same task before and after.
+UNFAIR MODE is a playable hospital kiosk accessibility challenge. Complete a patient check-in through an intentionally unfair interface, let DigitalOcean AI identify and repair its barriers, then replay the same mission and beat your score.
 
 ## Demo
 
-1. Turn on one or more barrier controls.
-2. Try the hospital check-in task.
-3. Select **Analyze interface**.
-4. Review the structured barrier report.
-5. Select **Rebuild accessibly** and repeat the task.
-6. Compare completion time and errors.
+1. Read Minseo Kim's patient brief.
+2. Complete the unfair kiosk challenge in under 30 seconds. Wrong answers cost 100 points.
+3. Select **Analyze interface** and review the structured barrier report.
+4. Select **Rebuild accessibly** and replay the same mission.
+5. Compare completion time, errors, and score before and after the rebuild.
 
 ## Why it matters
 

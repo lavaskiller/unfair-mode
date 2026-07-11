@@ -44,10 +44,23 @@
           <div class="metric score-metric"><b id="score">1000</b><span>score</span></div>
         </div>
 
-        <div class="mission-card">
-          <span class="section-label">Patient mission · target under 30 seconds</span>
-          <div><b>Language</b><strong>한국어</strong><b>Date of birth</b><strong>04/27/1985</strong><b>Visit</b><strong>Scheduled appointment</strong><b>Insurance card</b><strong>Yes, I have it</strong></div>
-        </div>
+        <section class="mission-card" aria-labelledby="mission-title">
+          <div class="mission-heading">
+            <div class="patient-mark" aria-hidden="true">MK</div>
+            <div>
+              <span class="section-label">Your check-in brief</span>
+              <h3 id="mission-title">Check in Minseo Kim</h3>
+            </div>
+            <div class="mission-goal"><strong>30s</strong><span>target</span></div>
+          </div>
+          <p class="mission-instruction">Match every kiosk answer to this patient record. A wrong answer costs 100 points.</p>
+          <dl class="mission-details">
+            <div><dt>Language</dt><dd>한국어</dd></div>
+            <div><dt>Date of birth</dt><dd>04/27/1985</dd></div>
+            <div><dt>Visit type</dt><dd>Scheduled appointment</dd></div>
+            <div><dt>Insurance</dt><dd>Card available</dd></div>
+          </dl>
+        </section>
 
         <div class="kiosk-shell" id="kioskShell">
           <div class="kiosk-top">
